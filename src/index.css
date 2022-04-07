@@ -2116,3 +2116,623 @@ html {
     flex-wrap: wrap;
   }
 }
+
+/* FlightsItinerary CSS */
+
+.FlightsItinerary {
+  display: flex;
+  gap: 5rem;
+  margin-top: 5rem;
+}
+
+.FlightsItinerary__left {
+  flex: 1;
+}
+
+.FlightsItinerary__left > h3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+  margin-bottom: 3rem;
+}
+
+.BoxItinerary {
+  margin-bottom: 3rem;
+}
+
+.BoxItinerary > h3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.BoxItinerary > p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 34px;
+  color: #000000;
+  margin-bottom: 2rem;
+}
+
+.BoxItinerary__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.BoxItinerary__list--item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.BoxItinerary__list--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.BoxItinerary__list--header > div {
+  display: flex;
+  align-items: center;
+}
+
+.BoxItinerary__list--header > div > span {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+  margin-left: -40px;
+}
+
+.BoxItinerary__list--header > span {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.BoxItinerary__list--main {
+  background: #F8F8F8;
+  padding: 6px 12px;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  align-items: center;
+}
+
+.BoxItinerary__list--main__first {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.BoxItinerary__list--main__first > p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.BoxItinerary__list--main__second {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-left: 2rem;
+}
+
+.BoxItinerary__list--main__second > div {
+  position: relative;
+}
+
+.BoxItinerary__list--main__second > div::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #F8F8F8;
+  border: 0.6px solid #000000;
+  box-sizing: border-box;
+  top: 7px;
+  left: -25px;
+}
+
+.BoxItinerary__list--main__second > div::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  border-bottom: 1px dashed #4C4C4C;
+  box-sizing: border-box;
+  top: 45px;
+  left: -45px;
+  transform: rotate(90deg);
+}
+
+.BoxItinerary__list--main__second > div:last-child:after {
+  display: none;
+}
+
+.BoxItinerary__list--main__second > div > h4 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.BoxItinerary__list--main__second > div > p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  color: #4C4C4C;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.BoxItinerary__list--main__second > div > p > span {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.BoxItinerary__list--main__last {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  padding-right: 4rem;
+}
+
+.BoxItinerary__list--main__last > div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.BoxItinerary__list--main__last > div > small {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.BoxItinerary__list--main__last > div > p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.BoxItinerary__footer {
+  background: rgba(130, 71, 73, .1);
+}
+
+.BoxItinerary__footer > p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+  padding: 2px 12px;
+}
+
+.FlightsItinerary__left > h3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.FlightsItinerary__left > h3 > span {
+  font-weight: normal;
+}
+
+.FlightsItinerary__left--protection {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, .12);
+  box-sizing: border-box;
+  border-radius: 4px;
+  max-width: 1000px;
+}
+
+.FlightsItinerary__left--protection__header {
+  background: rgba(42, 97, 214, .25);
+  border-radius: 4px;
+  padding: 13px 19px;
+}
+
+.FlightsItinerary__left--protection__header > p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.FlightsItinerary__left--protection__content {
+  padding: 20px 15px;
+}
+
+.FlightsItinerary__left--protection__content .radio-horizontal .radio {
+  display: flex;
+  gap: 1rem;
+}
+
+.FlightsItinerary__left--protection__content .radio-horizontal .radio > div > p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.FlightsItinerary__left--protection__content .radio-horizontal .radio > div > h4 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #BD8B13;
+  margin-top: .5rem;
+}
+
+.FlightsItinerary__left--protection__content .radio-horizontal .radio > div > h4 > a {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #2A61D6;
+  text-decoration: none;
+}
+
+.FlightsItinerary__left--protection__content > h3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.7;
+  margin: 2rem 0;
+}
+
+.FlightsItinerary__left--protection__content > small {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 12px;
+  color: #4C4C4C;
+  margin-top: 2.2rem;
+}
+
+.FlightsItinerary__left--protection__content > small > a {
+  color: #2A61D6;
+  text-decoration: none;
+}
+
+.FlightsItinerary__left--protection__slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.FlightsItinerary__left--protection__slider--item {
+  overflow: hidden;
+}
+
+.FlightsItinerary__left--protection__slider--actions > div {
+  display: none;
+}
+
+.FlightsItinerary__left--protection__slider--actions > button {
+  background: #FFFFFF;
+  box-shadow: 0px 10px 35px -1px rgba(0, 0, 0, 0.08);
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  border-radius: 100%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FlightsItinerary__left--protection__slider--actions > button {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.FlightsItinerary__left--protection__slider--actions > button:nth-child(3) {
+  position: absolute;
+  top: 50%;
+  right: 0 !important;
+  transform: translateY(-50%);
+  left: unset;
+}
+
+.FlightsItinerary__left--protection__slider--item {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.FlightsItinerary__left--protection__slider--item > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  color: #6B6C71;
+}
+
+.FlightsItinerary__left--protection__slider--item > div > h6 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #999999;
+}
+
+.FlightsItinerary__left--protection__slider--item > div > p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.FlightsItinerary__right {
+  flex: 0 0 400px;
+}
+
+.FlightsItinerary__left--protection__slider--item {
+  justify-content: space-around;
+  width: 100%;
+}
+
+.FlightsItinerary__summary {
+  background: #FFFFFF;
+  box-shadow: 0px 10px 35px -5px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  padding: 20px 22px;
+  margin-bottom: 3rem;
+}
+
+.FlightsItinerary__summary > h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: 'Poppins';
+}
+
+.FlightsItinerary__summary--divider {
+  width: 100%;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.2);
+  margin: 1rem 0 2rem;
+}
+
+.FlightsItinerary__summary--row {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.FlightsItinerary__summary--row > div:first-child > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: 'Poppins';
+}
+
+.FlightsItinerary__summary--row > div:first-child > b {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: 'Poppins';
+}
+
+.FlightsItinerary__summary--row > div:last-child > h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: right;
+  color: #000000;
+  font-family: 'Poppins';
+  white-space: nowrap;
+}
+
+.FlightsItinerary__summary--row > div:last-child > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(76, 76, 76, 0.8);
+  font-family: 'Poppins';
+  white-space: nowrap;
+}
+
+.FlightsItinerary__summary--row > div:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.FlightsItinerary__summary--row > div:nth-child(2) {
+  position: relative;
+}
+
+.FlightsItinerary__summary--row > div:nth-child(2) > span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  font-family: 'Poppins';
+  white-space: nowrap;
+}
+
+.FlightsItinerary__summary--form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.FlightsItinerary__summary--form .text-input > label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.2);
+  margin-top: -5px;
+}
+
+.FlightsItinerary__summary--form button {
+  align-self: baseline;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 2px 28px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+  font-family: 'Poppins';
+}
+
+.FlightsItinerary__radios {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.FlightsItinerary__radios .radio {
+  background: rgba(196, 196, 196, .12);
+  border-radius: 2px;
+  padding: 11px;
+  display: flex;
+  gap: 1rem;
+}
+
+.FlightsItinerary__radios .radio > div > h3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.FlightsItinerary__radios .radio > div > h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.FlightsItinerary__radios .radio > div > p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #4C4C4C;
+}
+
+.FlightsItinerary__radios .radio > div > h6 {
+  text-align: right;
+}
+
+.FlightsItinerary__radios .radio > div > h6 > a {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 12px;
+  color: #2A61D6;
+  text-decoration: none;
+}
+
+@media (max-width: 1272px) {
+  .BoxItinerary__list--main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .BoxItinerary__list--main__second {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+  }
+
+  .BoxItinerary__list--main__last {
+    justify-content: flex-end;
+    padding-right: 0;
+  }
+}
+
+.FlightsItinerary__radios .radio > div:last-child {
+  flex: 1;
+}
+
+@media (max-width: 973px) {
+  .FlightsItinerary {
+    flex-direction: column;
+  }
+}
