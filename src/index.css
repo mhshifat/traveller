@@ -2736,3 +2736,34 @@ html {
     flex-direction: column;
   }
 }
+
+@media (max-width: 417px) {
+  .TopPicsDestinations__items--item__list {
+    flex-direction: column;
+  }
+
+  .Footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .Footer__link--grid {
+    display: block;
+  }
+
+  .TopPicsDestinations__items {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .SearchFlights__aside img {
+    width: 100%;
+  }
+  
+  .SearchFlights__aside--deals__slider > a {
+    right: 38px;
+  }
+}
