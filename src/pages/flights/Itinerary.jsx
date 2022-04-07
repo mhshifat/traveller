@@ -12,8 +12,7 @@ import SwipeableViews from "react-swipeable-views";
 import { autoPlay } from "react-swipeable-views-utils";
 import MobileStepper from "@mui/material/MobileStepper";
 
-// const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
-const AutoPlaySwipeableViews = SwipeableViews;
+const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 export default function FlightsItinerary() {
 	const [activeStep, setActiveStep] = useState(0);
