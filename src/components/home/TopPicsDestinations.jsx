@@ -9,11 +9,11 @@ const AutoPlaySwipeableViews = SwipeableViews;
 
 const DEMO_IMAGES = [
 	"/assets/images/top-pics/top-pics-one.svg",
-	"/assets/images/top-pics/top-pics-two.svg",
-	"/assets/images/top-pics/top-pics-three.svg",
-	"/assets/images/top-pics/top-pics-four.svg",
-	"/assets/images/top-pics/top-pics-five.svg",
-	"/assets/images/top-pics/top-pics-six.svg",
+	// "/assets/images/top-pics/top-pics-two.svg",
+	// "/assets/images/top-pics/top-pics-three.svg",
+	// "/assets/images/top-pics/top-pics-four.svg",
+	// "/assets/images/top-pics/top-pics-five.svg",
+	// "/assets/images/top-pics/top-pics-six.svg",
 ];
 
 export default function TopPicsDestinations() {
