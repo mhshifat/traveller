@@ -64,6 +64,7 @@ export default function TopPicsDestinations() {
 											steps={6}
 											position="static"
 											activeStep={activeStep}
+											className="TopPicsDestinations__items--item__slider--actions"
 											nextButton={
 												<Button
 													size="small"
@@ -125,6 +126,7 @@ export default function TopPicsDestinations() {
 					steps={6}
 					position="static"
 					activeStep={activeStep}
+					className="TopPicsDestinations__slider--actions"
 					nextButton={
 						<Button
 							size="small"

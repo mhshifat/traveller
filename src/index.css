@@ -705,21 +705,21 @@ html {
   position: relative;
 }
 
-.SearchFlights__aside--deals__slider .css-1384nzf-MuiMobileStepper-dots {
-  position: absolute;
-  bottom: 11px;
-  left: 50%;
-  transform: translateX(-50%);
+.SearchFlights__aside--deals__slider .SearchFlights__slider--actions {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
-.SearchFlights__aside--deals__slider .css-114p2tk-MuiMobileStepper-dot {
+.SearchFlights__aside--deals__slider .SearchFlights__slider--actions > div {
+  margin-top: 80px;
+}
+
+/* .SearchFlights__aside--deals__slider .css-114p2tk-MuiMobileStepper-dot {
   width: 6px;
   height: 6px;
-}
+} */
 
-.SearchFlights__aside--deals__slider .css-1knaqv7-MuiButtonBase-root-MuiButton-root {
+.SearchFlights__aside--deals__slider .SearchFlights__slider--actions > button {
   width: 24px;
   height: 24px;
   border-radius: 50%;
@@ -729,14 +729,14 @@ html {
   box-shadow: 4px 0px 12px rgba(42, 97, 214, 0.08), 0px 4px 12px rgba(42, 97, 214, 0.08);
 }
 
-.SearchFlights__aside--deals__slider .css-1knaqv7-MuiButtonBase-root-MuiButton-root:nth-of-type(1) {
+.SearchFlights__aside--deals__slider .SearchFlights__slider--actions > button:nth-of-type(1) {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   left: 11px;
 }
 
-.SearchFlights__aside--deals__slider .css-1knaqv7-MuiButtonBase-root-MuiButton-root:nth-of-type(2) {
+.SearchFlights__aside--deals__slider .SearchFlights__slider--actions > button:nth-of-type(2) {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -809,7 +809,7 @@ html {
   position: relative;
 }
 
-.TopPicsDestinations__items--item .TopPicsDestinations__items--item__slider .css-rh92k-MuiPaper-root-MuiMobileStepper-root {
+.TopPicsDestinations__items--item .TopPicsDestinations__items--item__slider .TopPicsDestinations__items--item__slider--actions {
   position: absolute;
   bottom: 11px;
   background: transparent;
@@ -955,11 +955,11 @@ html {
   box-shadow: 0 0 2px rgba(0, 0, 0, .25);
 }
 
-.TopPicsDestinations__slider .css-1knaqv7-MuiButtonBase-root-MuiButton-root > span {
+/* .TopPicsDestinations__slider .css-1knaqv7-MuiButtonBase-root-MuiButton-root > span {
   display: none;
-}
+} */
 
-.TopPicsDestinations__slider .css-rh92k-MuiPaper-root-MuiMobileStepper-root {
+.TopPicsDestinations__slider .TopPicsDestinations__slider--actions {
   display: flex;
   justify-content: center;
   align-items: center;

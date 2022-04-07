@@ -270,6 +270,7 @@ export default function SearchFlights() {
 									steps={6}
 									position="static"
 									activeStep={activeStep}
+									className="SearchFlights__slider--actions"
 									nextButton={
 										<Button
 											size="small"
