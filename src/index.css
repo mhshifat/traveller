@@ -515,7 +515,7 @@ html {
   margin-bottom: 5px;
 }
 
-.SearchFlights__form--row .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+.SearchFlights__form--row .text-input > label {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 300;
@@ -525,7 +525,7 @@ html {
   opacity: 0.3;
 }
 
-.SearchFlights__form--row .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+.SearchFlights__form--row .text-input {
   width: 100%;
 }
 
@@ -535,7 +535,7 @@ html {
   gap: 1rem;
 }
 
-.SearchFlights__form--selectRow .css-q8hpuo-MuiFormControl-root {
+.SearchFlights__form--selectRow .select-input {
   min-width: 8.8rem;
 }
 

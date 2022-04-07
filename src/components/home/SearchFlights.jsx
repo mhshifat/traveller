@@ -75,6 +75,7 @@ export default function SearchFlights() {
 									label="Enter airport name or city"
 									variant="outlined"
 									fullWidth
+									className="text-input"
 								/>
 							</div>
 							<div>
@@ -95,6 +96,7 @@ export default function SearchFlights() {
 									label="Enter destination"
 									variant="outlined"
 									fullWidth
+									className="text-input"
 								/>
 							</div>
 						</div>
@@ -110,7 +112,9 @@ export default function SearchFlights() {
 									inputFormat="MM/dd/yyyy"
 									value={value}
 									onChange={handleChange}
-									renderInput={(params) => <TextField {...params} />}
+									renderInput={(params) => (
+										<TextField className="text-input" {...params} />
+									)}
 									fullWidth
 								/>
 							</div>
@@ -128,7 +132,9 @@ export default function SearchFlights() {
 									inputFormat="MM/dd/yyyy"
 									value={value}
 									onChange={handleChange}
-									renderInput={(params) => <TextField {...params} />}
+									renderInput={(params) => (
+										<TextField className="text-input" {...params} />
+									)}
 									fullWidth
 								/>
 							</div>
@@ -137,7 +143,7 @@ export default function SearchFlights() {
 						<div className="SearchFlights__form--selectRow">
 							<div>
 								<span>Adults</span>
-								<FormControl fullWidth>
+								<FormControl fullWidth className="select-input">
 									<InputLabel id="demo-simple-select-label">2</InputLabel>
 									<Select
 										labelId="demo-simple-select-label"
@@ -154,7 +160,7 @@ export default function SearchFlights() {
 							</div>
 							<div>
 								<span>Kids</span>
-								<FormControl fullWidth>
+								<FormControl fullWidth className="select-input">
 									<InputLabel id="demo-simple-select-label-kids">2</InputLabel>
 									<Select
 										labelId="demo-simple-select-label-kids"
@@ -172,7 +178,7 @@ export default function SearchFlights() {
 							</div>
 							<div>
 								<span>Infants</span>
-								<FormControl fullWidth>
+								<FormControl fullWidth className="select-input">
 									<InputLabel id="demo-simple-select-label-infants">
 										2
 									</InputLabel>
