@@ -41,21 +41,25 @@ export default function SearchFlights() {
 									aria-labelledby=""
 									defaultValue="round_trip"
 									name="radio-buttons-group"
+									className="radio-horizontal"
 								>
 									<FormControlLabel
 										value="one_way"
 										control={<Radio />}
 										label="One Way"
+										className="radio-label"
 									/>
 									<FormControlLabel
 										value="round_trip"
 										control={<Radio />}
 										label="Round Trip"
+										className="radio-label"
 									/>
 									<FormControlLabel
 										value="multi_city"
 										control={<Radio />}
 										label="Multi-City"
+										className="radio-label"
 									/>
 								</RadioGroup>
 							</FormControl>
@@ -194,21 +198,25 @@ export default function SearchFlights() {
 									aria-labelledby=""
 									defaultValue="business_class"
 									name="radio-buttons-group"
+									className="radio-horizontal"
 								>
 									<FormControlLabel
 										value="first_class"
 										control={<Radio />}
 										label="First class"
+										className="radio-label"
 									/>
 									<FormControlLabel
 										value="business_class"
 										control={<Radio />}
 										label="Business class"
+										className="radio-label"
 									/>
 									<FormControlLabel
 										value="economy"
 										control={<Radio />}
 										label="Economy"
+										className="radio-label"
 									/>
 									<button className="btn-primary">Search</button>
 								</RadioGroup>

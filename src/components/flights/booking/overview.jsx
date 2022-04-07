@@ -14,21 +14,25 @@ export default function FlightsBookingOverview() {
 						aria-labelledby=""
 						defaultValue="round_trip"
 						name="radio-buttons-group"
+						className="radio-horizontal"
 					>
 						<FormControlLabel
 							value="one_way"
 							control={<Radio />}
 							label="One Way"
+							className="radio-label"
 						/>
 						<FormControlLabel
 							value="round_trip"
 							control={<Radio />}
 							label="Round Trip"
+							className="radio-label"
 						/>
 						<FormControlLabel
 							value="multi_city"
 							control={<Radio />}
 							label="Multi-City"
+							className="radio-label"
 						/>
 					</RadioGroup>
 				</FormControl>

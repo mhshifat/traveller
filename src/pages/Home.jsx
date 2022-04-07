@@ -6,7 +6,7 @@ export default function Home() {
 	return (
 		<div className="Home">
 			<SearchFlights />
-			<TopPicsDestinations />
+			{/* <TopPicsDestinations /> */}
 			<ExplorePlaces />
 		</div>
 	);

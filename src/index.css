@@ -463,13 +463,13 @@ html {
   margin-bottom: 4.2rem;
 }
 
-.SearchFlights__form--radios .MuiFormGroup-root.css-dmmspl-MuiFormGroup-root {
+.SearchFlights__form--radios .radio-horizontal {
   display: flex;
   gap: 1rem;
   flex-direction: row !important;
 }
 
-.SearchFlights__form--radios .MuiTypography-root.MuiTypography-body1.MuiFormControlLabel-label.css-ahj2mt-MuiTypography-root {
+.SearchFlights__form--radios .radio-label > span:last-child {
   font-family: 'Sen';
   font-style: normal;
   font-weight: 400;
@@ -556,13 +556,13 @@ html {
   margin-top: 2rem;
 }
 
-.SearchFlights__form--radiosBtn .css-dmmspl-MuiFormGroup-root {
+.SearchFlights__form--radiosBtn .radio-horizontal {
   display: flex;
   flex-direction: row;
   gap: 2rem;
 }
 
-.SearchFlights__form--radiosBtn .css-ahj2mt-MuiTypography-root {
+.SearchFlights__form--radiosBtn .radio-label > span:last-child {
   font-family: 'Sen';
   font-style: normal;
   font-weight: 400;
@@ -795,7 +795,7 @@ html {
 
 .TopPicsDestinations__items {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 3rem;
 }
 

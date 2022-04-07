@@ -30,7 +30,7 @@ export default function TopPicsDestinations() {
 					onChangeIndex={(step) => setActiveStep(step)}
 					enableMouseEvents
 				>
-					{new Array(6).fill("").map((_, itemIdx) => (
+					{new Array(1).fill("").map((_, itemIdx) => (
 						<div className="TopPicsDestinations__items" key={itemIdx}>
 							{new Array(6).fill("").map((_, idx) => (
 								<div className="TopPicsDestinations__items--item" key={idx}>
