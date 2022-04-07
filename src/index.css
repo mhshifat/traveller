@@ -711,7 +711,8 @@ html {
 }
 
 .SearchFlights__aside--deals__slider .SearchFlights__slider--actions > div {
-  margin-top: 80px;
+  position: absolute;
+  bottom: 14px;
 }
 
 /* .SearchFlights__aside--deals__slider .css-114p2tk-MuiMobileStepper-dot {
